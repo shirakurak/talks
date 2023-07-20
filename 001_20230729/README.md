@@ -54,7 +54,7 @@ This is the presentation material of the event [【第10回】FUN FAN F#](https:
 
 # 最後に
 
-- 引き続きやっていく
+- Towards the second month !
 - おすすめのnext stepあれば教えてください！
 - 一緒にやれそうなことがあればぜひ！
   - OSS, 勉強会, コミュニティ運営, ...
