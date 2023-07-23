@@ -12,7 +12,7 @@ This is the presentation material of the event [【第10回】FUN FAN F#](https:
 
 - 白倉賢一（SHIRAKURA Ken'ichi）
 - [Link and Motivation Inc.](https://www.lmi.ne.jp/)
-  - Developer: [Motivation Cloud](https://www.motivation-cloud.com/) 
+  - [Motivation Cloud](https://www.motivation-cloud.com/) Developer
 
 ---
 
@@ -32,23 +32,68 @@ This is the presentation material of the event [【第10回】FUN FAN F#](https:
 
 ---
 
-やってみよう
+Well, let's do it!
 
 ---
 
-# aaa
+# 最初にやったこと
+
+- [Codewars](https://www.codewars.com/dashboard)の簡単な問題をいくつか解いた
+- 色々なサイトをざっと読んだ
+
+![tw](img/img1.png)
+
+- [F# mathematical logic library](https://github.com/GeorgePlotnikov/SharpLogic) を読んでいこう（文法だけの勉強の飽きそうだし...）
 
 ---
 
-# aaa
+# [F# mathematical logic library](https://github.com/GeorgePlotnikov/SharpLogic)
+
+（TODO:もうちょっとちゃんと書く）
+
+- 論理式の定義、解釈、深さの定義
+- 真偽の計算
 
 ---
 
-# aaa
+```sh
+$ cd SharpLogicConsole
+$ dotnet run
+((P && Q) -> (R <=> ~(S))
+...
+Formula is acceptable: [True]
+================
+P       Q       R       S       ~(S     (P && Q)        (R <=> ~(S)     ((P && Q) -> (R <=> ~(S))
+True    True    True    True    False   True            False           False
+True    True    True    False   True    True            True            True
+True    True    False   True    False   True            True            True
+True    True    False   False   True    True            False           False
+True    False   True    True    False   False           False           True
+True    False   True    False   True    False           True            True
+True    False   False   True    False   False           True            True
+True    False   False   False   True    False           False           True
+False   True    True    True    False   False           False           True
+False   True    True    False   True    False           True            True
+False   True    False   True    False   False           True            True
+False   True    False   False   True    False           False           True
+False   False   True    True    False   False           False           True
+False   False   True    False   True    False           True            True
+False   False   False   True    False   False           True            True
+False   False   False   False   True    False           False           True
+
+```
 
 ---
 
-# aaa
+# 読んでいて勉強になったこと1
+
+aaa
+
+---
+
+# 読んでいて勉強になったこと2
+
+aaa
 
 ---
 
