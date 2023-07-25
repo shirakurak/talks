@@ -155,7 +155,3 @@ let formulaCalcList =
 - おすすめのnext stepあれば教えてください！
 - 一緒にやれそうなことがあればぜひ！
   - OSS, 勉強会, コミュニティ運営, ...
-
----
-
-# Thank you!
