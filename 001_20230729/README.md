@@ -95,6 +95,8 @@ type Formula =
   | Impl of Formula * Formula
 ```
 
+- 再帰的な判別共用体
+
 ---
 
 # 論理式の複雑さ
