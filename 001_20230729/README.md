@@ -32,14 +32,14 @@ This is the presentation material of the event [【第10回】FUN FAN F#](https:
 
 ---
 
-Well, let's do it!
+Well... let's do it !!
 
 ---
 
-# 最初にやったこと
+# What we started with
 
-- [Codewars](https://www.codewars.com/dashboard)の簡単な問題をいくつか解いた
-- 色々なサイトをざっと読んだ
+- solved some simple problems in [Codewars](https://www.codewars.com/dashboard)
+- read some pages
 
   ![tw](img/img1.png)
 
@@ -74,15 +74,15 @@ False   False   False   False   True    False           False           True
 
 ---
 
-# 必要なこと
+# what we need
 
-- 論理式
-- 論理式の複雑さ
-- 複雑さの低い順に並べた構成要素のリスト
+1. Formula
+2. 論理式の複雑さ
+3. 構成要素のリスト
 
 ---
 
-# 論理式
+# 1. Formula
 
 ```fs
 type Formula =
@@ -95,11 +95,11 @@ type Formula =
   | Impl of Formula * Formula
 ```
 
-- 再帰的な判別共用体
+- Recursive discriminated unions
 
 ---
 
-# 論理式の複雑さ
+# 2. 論理式の複雑さ
 
 ```fs
 let rec CalcFormulaDepth formula =
@@ -115,7 +115,7 @@ let rec CalcFormulaDepth formula =
 
 ---
 
-# 構成要素のリスト
+# 3. 構成要素のリスト
 
 ```fs
 let rec BuildFormulaCalcList formula =
@@ -139,6 +139,14 @@ let rec BuildFormulaCalcList formula =
 
 ---
 
+# what we need
+
+1. ✅ 論理式
+2. ✅ 論理式の複雑さ
+3. ✅ 構成要素のリスト
+
+---
+
 # 並び替え
 
 ```fs
@@ -148,6 +156,21 @@ let formulaCalcList =
   BuildFormulaCalcList frm
   |> List.sortBy (fun f -> CalcFormulaDepth f)
 ```
+
+```sh
+Var "P"
+Var "Q"
+...
+Conj (Var "P", Var "Q")
+...
+Impl (Conj (Var "P", Var "Q"), Bic (Var "R", Neg (Var "S")))
+```
+
+---
+
+# まとめ
+
+1ヶ月のsnapshotとして、以下を学んだ〜とか
 
 ---
 
