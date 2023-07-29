@@ -26,7 +26,7 @@ This is the presentation material of the event [【第10回】FUN FAN F#](https:
 
 ---
 
-# Explore F#
+# Search about F#
 
 - F# doesn't seem to be very popular (especially in Japan)
 - .NET, Functional Programming ...　( •̀ω•́ ;  )
@@ -206,5 +206,5 @@ False   False   False   False   True    False           False           True
 # Towards the second month
 
 - What I should do next ?
-- something we could do together ?
+- Something we could do together ?
   - OSS, Documentation, Community ...
