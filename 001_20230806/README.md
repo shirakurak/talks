@@ -40,8 +40,8 @@ Well..., let's do it !!
 
 # What we started with
 
-- tried some simple problems in [Codewars](https://www.codewars.com/dashboard)
-- read some pages
+- tried some easy problems in [Codewars](https://www.codewars.com/dashboard)
+- read some web pages
 
   ![tw](img/img1.png)
 
@@ -208,3 +208,7 @@ False   False   False   False   True    False           False           True
 - What I should do next ?
 - Something we could do together ?
   - OSS, Documentation, Community ...
+
+---
+
+Thank you!
