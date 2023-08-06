@@ -76,7 +76,7 @@ False   False   False   False   True    False           False           True
 
 ---
 
-# what I need
+# What I need
 
 1. Formula
 2. Depth of formula
@@ -186,7 +186,7 @@ False   False   False   False   True    False           False           True
 
 ---
 
-# what I learned
+# What I learned
 
 ✅ Formula（Recursive discriminated unions）
 ✅ Depth of formula（Recursive Function, Pattern Matching）
